@@ -5,3 +5,5 @@
 azure-functions
 sqlalchemy
 pydantic
+httpx
+pyodbc

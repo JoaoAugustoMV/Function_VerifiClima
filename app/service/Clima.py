@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 from datetime import datetime
-from repository.Repository import InfoRepository
+from app.repository.Repository import InfoRepository
 
-from models.HistoricoClima import InformacaoDiaTemperatura
+from app.models.HistoricoClima import InformacaoDiaTemperatura
 infoRepo = InfoRepository()
 class Clima(ABC):
     

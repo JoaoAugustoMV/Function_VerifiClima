@@ -1,9 +1,9 @@
 import os, httpx
 
 from datetime import datetime, timedelta
-from models.HistoricoClima import InformacaoDiaTemperatura
-from repository.Repository import InfoRepository
-from service.Clima import Clima
+from app.models.HistoricoClima import InformacaoDiaTemperatura
+from app.repository.Repository import InfoRepository
+from app.service.Clima import Clima
 
 infoRepo = InfoRepository()
 class ClimaHGBrasil(Clima):

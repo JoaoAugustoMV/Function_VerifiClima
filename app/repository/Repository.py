@@ -2,7 +2,7 @@ import os
 from sqlalchemy import create_engine, insert, select
 from sqlalchemy.orm import Session
 
-from models.HistoricoClima import Base, InformacaoDiaTemperatura
+from app.models.HistoricoClima import Base, InformacaoDiaTemperatura
 import urllib
 
 # Connect to the database
